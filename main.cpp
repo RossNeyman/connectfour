@@ -148,7 +148,7 @@ bool isWon(int row , int col){//  row 1  col 5
 		i++;
 		j--;
 	}
-
+	if (winDiag2 > 3) return 1;
 	
 	return 0; //none of above!
 }
